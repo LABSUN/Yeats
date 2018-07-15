@@ -9,6 +9,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     display:inline-block;
+
 }
 .Image1{
     position: fixed;
@@ -20,15 +21,23 @@
     
 }
 .login{
-    margin-top: 280px;
-    margin-left: 95px;
+    margin-top: 265px;
+    margin-left: 85px;
     position: fixed;
+    padding:10px;
+    border-radius:10px;
+    border-color:orange;
+    box-shadow: 0px 1px 1px
 }
     
 .login2{
-    margin-top: 320px;
-    margin-left: 95px;
+    margin-top: 305px;
+    margin-left: 85px;
     position: fixed;
+    padding:10px;
+    border-radius:10px;
+    border-color:orange;
+    box-shadow: 0px 1px 1px
 }
 body{
 background-color:green;
@@ -113,7 +122,7 @@ height: 36px;
 
 
 padding-left:725px;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
 font-size: 40px;
 text-align: center;
