@@ -133,3 +133,29 @@ color: #ED9F2A;
             background-color:#a4a4a4;
             color:white;
         }
+
+        .rectangle1{
+            position: fixed;
+        width: 1004px;
+        height: 707px;
+        margin-left:50px;
+        
+        background-color: rgb(248, 226, 194);
+        background: linear-gradient(to right, #ffcc66 1%, #e9aa6c 100%);
+        box-sizing: border-box;
+        
+        border-radius: 17px;
+        }
+
+        .rectangle2{
+            position: fixed;
+        width: 504px;
+        height: 707px;
+        margin-left:1120px;
+        
+        background-color: rgb(248, 226, 194);
+        background: linear-gradient(to left, #ffcc66 1%, #e9aa6c 100%);
+        box-sizing: border-box;
+        
+        border-radius: 17px;
+        }
