@@ -3,7 +3,7 @@
     width: 400px;
     height: 517px;
     margin-left:1000px;
-    margin-top: -530px;
+    margin-top: -500px;
     background: #FFFFFF;
     border: 1px solid #C2C2C2;
     box-sizing: border-box;
@@ -59,35 +59,14 @@ margin-left:130px;
     background: linear-gradient(to right, #ffcc66 1%, #cc6600 100%);
     color:white;
 }
-.ball{
-    position: absolute;
-width: 109px;
-height: 175px;
-font-weight: 300;
-line-height: normal;
-font-size: 64px;
-display: inline-block;
-color: #000000;
-margin-top:70px;
-padding-left: 5px;
-}
+
+
 .Image2{
     display:inline-block;
     height: 190px;
     padding:20px;
 }
-.City{
-    position: absolute;
-width: 113px;
-height: 75px;
-display:inline-block;
-padding-top:70px;
-padding-left:94px;
-font-weight: 800;
-line-height: normal;
-font-size: 64px;
-color: #ED9F2A;
-}
+
 .rectangle2{
     height: 20px;
     width:100%;
@@ -141,4 +120,15 @@ font-size: 40px;
 text-align: center;
 margin-top:-300px;
 color: #ED9F2A;
+}
+
+.Log{
+    margin-top: 45px;
+}
+
+.Lit{
+    margin-left:650px;
+    margin-top:-300px;
+    display:inline-block;
+    position:fixed;
 }

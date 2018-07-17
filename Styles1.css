@@ -12,31 +12,7 @@
     padding:20px;
     margin-top:-230px;
 }
-.ball{
-    position: absolute;
-width: 109px;
-height: 175px;
-font-weight: 300;
-line-height: normal;
-font-size: 64px;
-display: inline-block;
-color: #000000;
-margin-top:-135px;
-margin-left: 0px;
-}
 
-.City{
-    position: absolute;
-width: 113px;
-height: 75px;
-display:inline-block;
-margin-left: 88px;
-margin-top:-135px;
-font-weight: 800;
-line-height: normal;
-font-size: 64px;
-color: #ED9F2A;
-}
 .button{
     border: none;
     background-color: transparent;
@@ -135,7 +111,7 @@ color: #ED9F2A;
         }
 
         .rectangle1{
-            position: fixed;
+        position: fixed;
         width: 1004px;
         height: 707px;
         margin-left:50px;
@@ -148,14 +124,28 @@ color: #ED9F2A;
         }
 
         .rectangle2{
-            position: fixed;
+         position: fixed;
         width: 504px;
         height: 707px;
         margin-left:1120px;
-        
         background-color: rgb(248, 226, 194);
         background: linear-gradient(to left, #ffcc66 1%, #e9aa6c 100%);
         box-sizing: border-box;
-        
         border-radius: 17px;
+        }
+        .Man{
+            display:inline-block;
+            width:200px;
+            margin-left:150px;
+            margin-top:50px;
+            position:fixed;
+        }
+        .Rectangle3{
+            height:400px;
+            width:400px;
+            background-color: lightgrey;
+            border: 5px solid #C2C2C2;
+            border-radius: 5px;
+            margin-top:280px;
+            margin-left:55px;
         }
