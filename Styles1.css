@@ -19,7 +19,7 @@
     padding: 14px 28px;
     font-size: 50px;
     font-weight:400px;
-    margin-left:300px;
+    margin-left: 20px;
     margin-top:-190px;
     position:fixed;
     cursor: pointer;
@@ -39,7 +39,7 @@
     padding: 14px 28px;
     font-size: 50px;
     font-weight:400px;
-    margin-left:675px;
+    margin-left:210px;
     margin-top:-190px;
     position:fixed;
     cursor: pointer;
@@ -55,7 +55,7 @@
     padding: 14px 28px;
     font-size: 50px;
     
-    margin-left:840px;
+    margin-left:360px;
     margin-top:-190px;
     position:fixed;
     cursor: pointer;
@@ -70,7 +70,7 @@
     padding: 14px 28px;
     font-size: 50px;
     font-weight:400px;
-    margin-left:1200px;
+    margin-left:700px;
     margin-top:-190px;
     position:fixed;
     cursor: pointer;
@@ -90,26 +90,7 @@
         background-color:#a4a4a4;
         color:white;}
 
-        .button4{
-            border: none;
-            background-color: transparent;
-            padding: 14px 28px;
-            font-size: 50px;
-            font-weight:400px;
-            margin-left:520px;
-            margin-top:-190px;
-            position:fixed;
-            cursor: pointer;
-            display: inline-block;
-            color:grey;
-            padding-top:70px;
-            padding-bottom:45px;
-        }
-        .button4:hover{
-            background-color:#a4a4a4;
-            color:white;
-        }
-
+        
         .rectangle1{
         position: fixed;
         width: 1004px;
@@ -148,4 +129,10 @@
             border-radius: 5px;
             margin-top:280px;
             margin-left:55px;
+        }
+
+        .Log{
+            margin-top:-190px;
+            display: inline-block;
+            display:fixed;
         }
