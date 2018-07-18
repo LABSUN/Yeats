@@ -4,9 +4,9 @@
 
     width:100%;
 
-    background: #e6e6e6;
+    background:#F69E35;
 
-    display: block;
+    display: inline-block;
 
 }
 
@@ -204,11 +204,13 @@
 
         .Log{
 
-            margin-top:-190px;
+            margin-top:-210px;
 
             display: inline-block;
 
             display:fixed;
+            height:150px;
+            margin-left:450px;
 
         }
 
@@ -216,7 +218,9 @@
         /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 400px;
+        height: 500px;
+        padding:100px;
+        margin-top:110px;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -228,10 +232,12 @@
         font-size: 12px;
       }
       #map {
-        width: 440px;
+        width: 100%;
+        padding-top:-100px;
+        display:inline-block;
       }
       #listing {
-        position: absolute;
+        position: fixed;
         width: 200px;
         height: 470px;
         overflow: auto;
@@ -241,17 +247,19 @@
         overflow-x: hidden;
       }
       #findhotels {
-        position: absolute;
-        text-align: right;
+        position: fixed;        
         width: 100px;
-        font-size: 14px;
-        padding: 4px;
-        z-index: 5;
-        background-color:transparent;
-        margin-top:-100px;
+        font-size: 1px;        
+        z-index: 5;       
+        margin-top:15px;
+        font-weight:bold;
+        font-size:30px;
+        display:inline-block;
+        margin-left:-900px;
       }
+      
       #locationField {
-        position: absolute;
+        position: fixed;
         width: 190px;
         height: 25px;
         left: 108px;
@@ -260,7 +268,7 @@
         background-color: transparent;
       }
       #controls {
-        position: absolute;
+        position: fixed;
         left: 300px;
         width: 140px;
         top: 0px;
@@ -269,7 +277,7 @@
       }
       #autocomplete {
         width: 100%;
-        margin-top: 100px;
+        margin-top: 250px;
       }
       #country {
         width: 100%;
@@ -301,4 +309,3 @@
       .iw_table_icon {
         text-align: right;
       }
-    
