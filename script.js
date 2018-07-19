@@ -1,4 +1,4 @@
- // This example uses the autocomplete feature of the Google Places API.
+  // This example uses the autocomplete feature of the Google Places API.
       // It allows the user to find all hotels in a given place, within a given
       // country. It then displays markers for all the hotels returned,
       // with on-click details for each hotel.
@@ -69,8 +69,11 @@
         }
       };
 
+      
+
+
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
+          map = new google.maps.Map(document.getElementById('map'), {
           zoom: countries['us'].zoom,
           center: countries['us'].center,
           mapTypeControl: false,
