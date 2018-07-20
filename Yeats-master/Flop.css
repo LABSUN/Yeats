@@ -1,0 +1,244 @@
+.rectangle{
+
+    height: 100px;
+
+    width:100%;
+
+    background:#F69E35;
+
+    display: inline-block;
+
+}
+
+
+
+
+
+        .Man{
+
+            display:inline-block;
+
+            width:200px;
+
+            margin-left:150px;
+
+            margin-top:50px;
+
+            position:fixed;
+
+        }
+
+        .Rectangle3{
+
+            height:400px;
+
+            width:400px;
+
+            background-color: lightgrey;
+
+            border: 5px solid #C2C2C2;
+
+            border-radius: 5px;
+
+            margin-top:280px;
+
+            margin-left:55px;
+
+        }
+
+        .Log{
+
+            margin-top:-100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            
+
+            display:fixed;
+            height:90px;
+            
+
+        }
+        .game:hover{
+            background-color:#FF9A02;
+            color:white;
+          }
+        .game{
+            width: 30%;
+            height: 164px;
+            
+            font-style: normal;
+            font-weight: normal;
+            
+            font-size: 68px;
+            text-align: center;
+            color: #FF9A02;
+            background: #FFFFFF;
+            border: 5px solid #FF9A02;
+            box-sizing: border-box;
+            display:block;
+            margin-right: auto;
+            margin-left:auto;
+            margin-top:70px;
+            cursor: pointer;
+            font-weight:bold;
+            border-radius:10px;
+          }
+
+       
+        /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height:500px;
+        padding:100px;
+        border-radius:5px;
+        border-color:#F69E35;
+        border-width:2px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        font-size: 12px;
+      }
+      #map {
+        width: 100%;
+        padding-top:-100px;
+        display:inline-block;
+        border-style:solid;
+        
+      }
+      #listing {
+        width: 350px;
+        height: 500px;;
+        overflow: auto;
+        left: 442px;
+        cursor: pointer;
+        overflow-x: hidden;
+        overflow: scroll;
+        border-width:40px;
+        margin-left: 50%;
+        margin-top: 0px;
+        z-index: 5;
+        position: absolute;
+
+      }
+      #resultsTable {
+        width: 240px;
+        border: solid 2px orange;
+        z-index: 5;
+        position: absolute;
+
+      }
+      #findhotels {
+        display: inline-block;
+        font-size: 35px;
+        
+      }
+      .results{
+        z-index: 5;
+        position: absolute;
+      }
+      .search{
+        position: absolute;
+        top: 130px;
+        z-index: 5;
+        max-width: 80%;
+        margin-left: 35%;
+      }
+      #locationField {
+        display: inline-block;
+        
+      }
+      #controls {
+        display: inline-block;
+        
+      }
+      #autocomplete {
+        display: inline-block;
+        height: 60px;
+        width: 200px;
+        padding-left: 15px;
+        border: solid 2px orange;
+        border-radius: 5px;
+      }
+      #country {
+        width: 100%;
+        display: inline-block;
+        margin-right: auto;
+        width: 200px;
+        border-radius:5px;
+        padding:3px;
+        border: solid 2px orange;
+        height:60px;
+        top:129px;
+        
+      }
+      .placeIcon {
+        width: 20px;
+        height: 34px;
+        margin: 4px;
+      }
+      .hotelIcon {
+        width: 24px;
+        height: 24px;
+      }
+      #rating {
+        font-size: 13px;
+        font-family: Arial Unicode MS;
+      }
+      .iw_table_row {
+        height: 18px;
+      }
+      .iw_attribute_name {
+        font-weight: bold;
+        text-align: right;
+      }
+      .iw_table_icon {
+        text-align: right;
+      }
+      .box{
+        background-color: white;
+        height: 250px;
+      }
+
+      
+      .gamee{
+        position: absolute;
+        width: 180px;
+        height: 64px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 38px;
+        text-align: center;
+        color: #FF9A02;
+        background: #FFFFFF;
+        border: 2px solid #FF9A02;
+        box-sizing: border-box;
+        margin-left:900px;
+        margin-top:75px;
+        cursor:pointer;
+      }
+.yol{
+    height:60px;
+    width:60px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    
+
+}
+
+.tol{
+    color:darkgrey;
+    font-size:100px;
+    text-align:center;
+    margin-top:100px;
+}

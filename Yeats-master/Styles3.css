@@ -1,0 +1,99 @@
+.rectangle{
+    height: 190px;
+    width:100%;
+    background: #e6e6e6;
+    display: block;
+    
+}
+
+.Image2{
+    display:inline-block;
+    height: 190px;
+    padding:20px;
+    margin-top:-230px;
+}
+
+
+
+.button{
+    border: none;
+    background-color: transparent;
+    padding: 14px 28px;
+    font-size: 50px;
+    font-weight:400px;
+    margin-left: 20px;
+    margin-top:-190px;
+    position:fixed;
+    cursor: pointer;
+    display: inline-block;
+    color:grey;
+    padding-top:70px;
+    padding-bottom:45px;
+    
+}
+.button:hover{
+    background-color:#a4a4a4;
+    color:white;
+}
+.button1{
+    border: none;
+    background-color: transparent;
+    padding: 14px 28px;
+    font-size: 50px;
+    font-weight:400px;
+    margin-left:210px;
+    margin-top:-190px;
+    position:fixed;
+    cursor: pointer;
+    display: inline-block;
+    color:grey;
+    padding-top:70px;
+    padding-bottom:45px;
+    
+}
+.button2{
+    border: none;
+    background-color: transparent;
+    padding: 14px 28px;
+    font-size: 50px;
+    
+    margin-left:360px;
+    margin-top:-190px;
+    position:fixed;
+    cursor: pointer;
+    display: inline-block;
+    color:grey;
+    padding-top:70px;
+    padding-bottom:45px;
+}
+.button3{
+    border: none;
+    background-color: transparent;
+    padding: 14px 28px;
+    font-size: 50px;
+    font-weight:400px;
+    margin-left:700px;
+    margin-top:-190px;
+    position:fixed;
+    cursor: pointer;
+    display: inline-block;
+    color:grey;
+    padding-top:70px;
+    padding-bottom:45px;
+}
+.button1:hover{
+    background-color:#a4a4a4;
+    color:white;
+}
+.button2:hover{
+    background-color:#a4a4a4;
+    color:white;}
+.button3:hover{
+        background-color:#a4a4a4;
+        color:white;}
+
+        .Log{
+            margin-top:-190px;
+            display: inline-block;
+            display:fixed;
+        }
